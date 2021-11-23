@@ -1,0 +1,24 @@
+.imagesize {
+    height: 20%;
+    width: 20%;
+}
+
+.fa-star {
+    color: blue;
+}
+
+.empty-star {
+    color: grey;
+}
+
+.container1 {
+    background-color: grey;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.section1 {
+    display: flex;
+}
