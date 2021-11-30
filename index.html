@@ -11,432 +11,452 @@
 </head>
 
 <body>
-    <div id="container">
-        <header class="header">
-            <div>
-                <img src="images/logo/Booki.png" alt="logo">
-            </div>
-            <div class="nav">
-                <nav>
-                    <ul>
-                        <li>
-                            <a href="#Block-hebergement">Hebergements</a>
-                            <a href="#Block-activités">Activités</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
+    <header>
+        <div class="logo">
+            <img src="images/logo/Booki.png" alt="logo">
+        </div>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#Block-hebergement">Hebergements</a>
 
-        </header>
-        <main id="main">
-            <div class="block-search">
-                <div class="zone-search">
-                    <h1 class="title">
-                        Trouvez votre hébergement pour des vacances de rêve
-                    </h1>
-                    <p>En plein centre ville ou en pleine nature</p>
-                    <div class="icon-search">
+                </li>
+                <li>
+                    <a href="#Block-activités">Activités</a>
+                </li>
+            </ul>
+        </nav>
+
+    </header>
+    <main>
+        <div class="block-search">
+            <div class="search-zone">
+                <h3>
+                    Trouvez votre hébergement pour des vacances de rêve
+                </h3>
+                <p>En plein centre ville ou en pleine nature</p>
+                <form action="#">
+                    <div class="search">
                         <i class="fas fa-map-marker-alt"></i>
-                        <form class="search">
-                            <input type="text" placeholder="Marseille,France.">
-                            <button type="submit">Rechercher<i class="fa fa-search"></i></button>
+                        <input type="text" placeholder="Marseille,France.">
+                        <button type="submit">Rechercher</button>
                     </div>
-                </div>
-                <div class="zone-filters">
-                    <button class="filters-button">
+                </form>
+            </div>
+            <div class="search-filters">
+                <span class="search-filters-title">Filtres</span>
+                <button class="search-filters-button">
+                    <i class="fas fa-money-bill-wave" aria-hidden="true"></i>
+                    Économique
+                </button>
+                <button class="search-filters-button">
+                    <i class="fas fa-child" aria-hidden="true"></i>
+                    Familial
+                </button>
+                <button class="search-filters-button">
+                    <i class="fas fa-heart" aria-hidden="true"></i>
+                    Romantique
+                </button>
+                <button class="search-filters-button">
+                    <i class="fas fa-dog" aria-hidden="true"></i>
+                    Animaux autorisés
+                </button>
+            </div>
+            <!-- <div class="search-filters">
+                <span class="search-filters-title">Filtres</span>
+                <button class="search-filters-button">
                         <i class="fas fa-money-bill-wave"></i>
                         Économique
                     </button>
-                    <button class="filters-button">
+                <button class="search-filters-button">
                         <i class="fas fa-child"></i>
                         Familial
                     </button>
-                    <button class="filters-button">
+                <button class="search-filters-button">
                         <i class="fas fa-heart"></i>
                         Romantique
                     </button>
-                    <button class="filters-button">
+                <button class="search-filters-button">
                         <i class="fas fa-dog"></i>
                         Animaux autorisés
                     </button>
-                </div>
-                <div class="info">
-                    <i class="fas fa-info"></i>
-                    <span class="info-text">Plus de 500 logements sont disponibles dans cette ville</span>
-                </div>
+            </div> -->
+            <div class="search-infos">
+                <i class="fas fa-info" aria-hidden="true"></i>
+                <span class="search-infos-text">Plus de 500 logements sont disponibles dans cette ville</span>
             </div>
-            <div class="Block-Herbergements">
-                <div class="section-Activité">
-                    <p><strong>Hébergements à Marseille</strong></p>
-                    <div class="images">
-                        <div class="first-image">
-                            <a href="#">
-                                <div class="first-image">
-                                    <figure>
-                                        <img src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="auberge la cannebiere">
-                                    </figure>
+        </div>
+        <div class="Block-Herbergements">
+            <div class="section-Activité">
+                <p><strong>Hébergements à Marseille</strong></p>
+                <div class="images">
+                    <div class="first-image">
+                        <a href="#">
+                            <div class="first-image">
+                                <figure>
+                                    <img src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="auberge la cannebiere">
+                                </figure>
+                            </div>
+                            <div class="first-image-title">
+                                <div>
+                                    <h3>Auberge La Cannebière</h3>
                                 </div>
-                                <div class="first-image-title">
-                                    <div>
-                                        <h3>Auberge La Cannebière</h3>
-                                    </div>
-                                    <div>
-                                        <p>Nuit à partir de <strong>25€</strong></p>
-                                    </div>
-                                    <div class="first-image-stars">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star empty-star"></i>
-                                    </div>
+                                <div>
+                                    <p>Nuit à partir de <strong>25€</strong></p>
                                 </div>
-                            </a>
-                        </div>
-                        <div class="second-image">
-                            <a href="#">
-                                <div class="second-image">
-                                    <figure>
-                                        <img src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="hotel du port">
-                                    </figure>
+                                <div class="first-image-stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star empty-star"></i>
                                 </div>
-                                <div class="second-image-title">
-                                    <div>
-                                        <h3>Auberge La Cannebière</h3>
-                                    </div>
-                                    <div>
-                                        <p>Nuit à partir de <strong>25€</strong></p>
-                                    </div>
-                                    <div class="second-image-stars">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star grey-star"></i>
-                                    </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="second-image">
+                        <a href="#">
+                            <div class="second-image">
+                                <figure>
+                                    <img src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="hotel du port">
+                                </figure>
+                            </div>
+                            <div class="second-image-title">
+                                <div>
+                                    <h3>Auberge La Cannebière</h3>
                                 </div>
-                            </a>
-                        </div>
-                        <div class="third-image">
-                            <a href="#">
-                                <div class="third-image">
-                                    <figure>
-                                        <img src="images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="hotel les mouettes">
-                                    </figure>
+                                <div>
+                                    <p>Nuit à partir de <strong>25€</strong></p>
                                 </div>
-                                <div class="third-image-title">
-                                    <div>
-                                        <h3>Auberge La Cannebière</h3>
-                                    </div>
-                                    <div>
-                                        <p>Nuit à partir de <strong>25€</strong></p>
-                                    </div>
-                                    <div class="third-image-stars">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star grey-star"></i>
-                                    </div>
+                                <div class="second-image-stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star grey-star"></i>
                                 </div>
-                            </a>
-                        </div>
-                        <div class="forth-image">
-                            <a href="#">
-                                <div class="forth-image">
-                                    <figure>
-                                        <img src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="hotel les mouettes">
-                                    </figure>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="third-image">
+                        <a href="#">
+                            <div class="third-image">
+                                <figure>
+                                    <img src="images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="hotel les mouettes">
+                                </figure>
+                            </div>
+                            <div class="third-image-title">
+                                <div>
+                                    <h3>Auberge La Cannebière</h3>
                                 </div>
-                                <div class="forth-image-title">
-                                    <div>
-                                        <h3>Auberge La Cannebière</h3>
-                                    </div>
-                                    <div>
-                                        <p>Nuit à partir de <strong>25€</strong></p>
-                                    </div>
-                                    <div class="forth-image-stars">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star grey-star"></i>
-                                    </div>
+                                <div>
+                                    <p>Nuit à partir de <strong>25€</strong></p>
                                 </div>
-                            </a>
-                        </div>
-                        <div class="fifth-image">
-                            <a href="#">
-                                <div class="fifth-image">
-                                    <figure>
-                                        <img src="images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="hotel les mouettes">
-                                    </figure>
+                                <div class="third-image-stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star grey-star"></i>
                                 </div>
-                                <div class="fifth-image-title">
-                                    <div>
-                                        <h3>Auberge La Cannebière</h3>
-                                    </div>
-                                    <div>
-                                        <p>Nuit à partir de <strong>25€</strong></p>
-                                    </div>
-                                    <div class="fifth-image-stars">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star grey-star"></i>
-                                    </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="forth-image">
+                        <a href="#">
+                            <div class="forth-image">
+                                <figure>
+                                    <img src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="hotel les mouettes">
+                                </figure>
+                            </div>
+                            <div class="forth-image-title">
+                                <div>
+                                    <h3>Auberge La Cannebière</h3>
                                 </div>
-                            </a>
-                        </div>
-                        <div class="sixth-image">
-                            <a href="#">
-                                <div class="sixth-image">
-                                    <figure>
-                                        <img src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="hotel les mouettes">
-                                    </figure>
+                                <div>
+                                    <p>Nuit à partir de <strong>25€</strong></p>
                                 </div>
-                                <div class="sixt-image-title">
-                                    <div>
-                                        <h3>Auberge La Cannebière</h3>
-                                    </div>
-                                    <div>
-                                        <p>Nuit à partir de <strong>25€</strong></p>
-                                    </div>
-                                    <div class="sixth-image-stars">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star grey-star"></i>
-                                    </div>
+                                <div class="forth-image-stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star grey-star"></i>
                                 </div>
-                            </a>
-                        </div>
-
-
+                            </div>
+                        </a>
+                    </div>
+                    <div class="fifth-image">
+                        <a href="#">
+                            <div class="fifth-image">
+                                <figure>
+                                    <img src="images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="hotel les mouettes">
+                                </figure>
+                            </div>
+                            <div class="fifth-image-title">
+                                <div>
+                                    <h3>Auberge La Cannebière</h3>
+                                </div>
+                                <div>
+                                    <p>Nuit à partir de <strong>25€</strong></p>
+                                </div>
+                                <div class="fifth-image-stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star grey-star"></i>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="sixth-image">
+                        <a href="#">
+                            <div class="sixth-image">
+                                <figure>
+                                    <img src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="hotel les mouettes">
+                                </figure>
+                            </div>
+                            <div class="sixt-image-title">
+                                <div>
+                                    <h3>Auberge La Cannebière</h3>
+                                </div>
+                                <div>
+                                    <p>Nuit à partir de <strong>25€</strong></p>
+                                </div>
+                                <div class="sixth-image-stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star grey-star"></i>
+                                </div>
+                            </div>
+                        </a>
                     </div>
 
-                    <div class="section-les-plus-populaires">
-                    </div>
+
                 </div>
+
                 <div class="section-les-plus-populaires">
-                    <p><strong>les plus populaires</strong></p>
-                    <div class="sixth-image">
-                        <a href="#">
-                            <div class="sixth-image">
-                                <figure>
-                                    <img src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="hotel les mouettes">
-                                </figure>
-                            </div>
-                            <div class="sixt-image-title">
-                                <div>
-                                    <h3>Auberge La Cannebière</h3>
-                                </div>
-                                <div>
-                                    <p>Nuit à partir de <strong>25€</strong></p>
-                                </div>
-                                <div class="sixth-image-stars">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star grey-star"></i>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="sixth-image">
-                        <a href="#">
-                            <div class="sixth-image">
-                                <figure>
-                                    <img src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="hotel les mouettes">
-                                </figure>
-                            </div>
-                            <div class="sixt-image-title">
-                                <div>
-                                    <h3>Auberge La Cannebière</h3>
-                                </div>
-                                <div>
-                                    <p>Nuit à partir de <strong>25€</strong></p>
-                                </div>
-                                <div class="sixth-image-stars">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star grey-star"></i>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="sixth-image">
-                        <a href="#">
-                            <div class="sixth-image">
-                                <figure>
-                                    <img src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="hotel les mouettes">
-                                </figure>
-                            </div>
-                            <div class="sixt-image-title">
-                                <div>
-                                    <h3>Auberge La Cannebière</h3>
-                                </div>
-                                <div>
-                                    <p>Nuit à partir de <strong>25€</strong></p>
-                                </div>
-                                <div class="sixth-image-stars">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star grey-star"></i>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-
-
                 </div>
             </div>
-            <div class="block-activités">
-                <p><strong>Activités à Marseille</strong></p>
-                <div class="view-port">
+            <div class="section-les-plus-populaires">
+                <p><strong>les plus populaires</strong></p>
+                <div class="sixth-image">
                     <a href="#">
-                        <div class="view-port-img">
+                        <div class="sixth-image">
                             <figure>
-                                <img src="images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="vieux port">
+                                <img src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="hotel les mouettes">
                             </figure>
                         </div>
-                        <div class="view-port-title">
+                        <div class="sixt-image-title">
                             <div>
-                                <h3>view-port</h3>
+                                <h3>Auberge La Cannebière</h3>
+                            </div>
+                            <div>
+                                <p>Nuit à partir de <strong>25€</strong></p>
+                            </div>
+                            <div class="sixth-image-stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star grey-star"></i>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="sixth-image">
+                    <a href="#">
+                        <div class="sixth-image">
+                            <figure>
+                                <img src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="hotel les mouettes">
+                            </figure>
+                        </div>
+                        <div class="sixt-image-title">
+                            <div>
+                                <h3>Auberge La Cannebière</h3>
+                            </div>
+                            <div>
+                                <p>Nuit à partir de <strong>25€</strong></p>
+                            </div>
+                            <div class="sixth-image-stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star grey-star"></i>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="sixth-image">
+                    <a href="#">
+                        <div class="sixth-image">
+                            <figure>
+                                <img src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="hotel les mouettes">
+                            </figure>
+                        </div>
+                        <div class="sixt-image-title">
+                            <div>
+                                <h3>Auberge La Cannebière</h3>
+                            </div>
+                            <div>
+                                <p>Nuit à partir de <strong>25€</strong></p>
+                            </div>
+                            <div class="sixth-image-stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star grey-star"></i>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="block-activités">
+            <p><strong>Activités à Marseille</strong></p>
+            <div class="view-port">
+                <a href="#">
+                    <div class="view-port-img">
+                        <figure>
+                            <img src="images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="vieux port">
+                        </figure>
+                    </div>
+                    <div class="view-port-title">
+                        <div>
+                            <h3>view-port</h3>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div>
+                <div>
+                    <a href="#">
+                        <div>
+                            <figure>
+                                <img src="images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="fort de pomegues">
+                            </figure>
+                        </div>
+                        <div>
+                            <div>
+                                <h3>Fort de Pomègues</h3>
                             </div>
                         </div>
                     </a>
                 </div>
                 <div>
-                    <div>
-                        <a href="#">
-                            <div>
-                                <figure>
-                                    <img src="images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="fort de pomegues">
-                                </figure>
-                            </div>
-                            <div>
-                                <div>
-                                    <h3>Fort de Pomègues</h3>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div>
-                        <a href="#">
-                            <div>
-                                <figure>
-                                    <img src="images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="iles du frioul">
-                                </figure>
-                            </div>
-                            <div>
-                                <div>
-                                    <h3>iles du Frioul</h3>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-
-                <div>
                     <a href="#">
                         <div>
                             <figure>
-                                <img src="images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="parc national des calanques">
+                                <img src="images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="iles du frioul">
                             </figure>
                         </div>
                         <div>
                             <div>
-                                <h3>Parc National des Calanques</h3>
+                                <h3>iles du Frioul</h3>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div>
+                <a href="#">
+                    <div>
+                        <figure>
+                            <img src="images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="parc national des calanques">
+                        </figure>
+                    </div>
+                    <div>
+                        <div>
+                            <h3>Parc National des Calanques</h3>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div>
+                <div>
+                    <a href="#">
+                        <div>
+                            <figure>
+                                <img src="images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="notre dame de la garde">
+                            </figure>
+                        </div>
+                        <div>
+                            <div>
+                                <h3>Notre-Dame-de-la-Garde</h3>
                             </div>
                         </div>
                     </a>
                 </div>
                 <div>
-                    <div>
-                        <a href="#">
+                    <a href="#">
+                        <div>
+                            <figure>
+                                <img src="images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="parc longchamp">
+                            </figure>
+                        </div>
+                        <div>
                             <div>
-                                <figure>
-                                    <img src="images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="notre dame de la garde">
-                                </figure>
+                                <h3>Parc Longchamp</h3>
                             </div>
-                            <div>
-                                <div>
-                                    <h3>Notre-Dame-de-la-Garde</h3>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div>
-                        <a href="#">
-                            <div>
-                                <figure>
-                                    <img src="images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="parc longchamp">
-                                </figure>
-                            </div>
-                            <div>
-                                <div>
-                                    <h3>Parc Longchamp</h3>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
+                        </div>
+                    </a>
                 </div>
             </div>
-        </main>
-        <footer>
-            <div class="footer-item">
-                <ul>
-                    <li>
-                        <strong>A propos</strong>
-                    </li>
-                    <li>
-                        <a href="#">Fontionnement du site</a>
-                    </li>
-                    <li>
-                        <a href="#">Conditions générales de vente</a>
-                    </li>
-                    <li>
-                        <a href="#">Données et confidentialité</a>
-                    </li>
-                </ul>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-item">
+            <ul>
+                <li>
+                    <strong>A propos</strong>
+                </li>
+                <li>
+                    <a href="#">Fontionnement du site</a>
+                </li>
+                <li>
+                    <a href="#">Conditions générales de vente</a>
+                </li>
+                <li>
+                    <a href="#">Données et confidentialité</a>
+                </li>
+            </ul>
 
 
-            </div>
-            <div class="footer-item">
-                <ul>
-                    <li><strong>Nos hébérgements</strong></li>
-                    <li>
-                        <a href="#">Charte qualité</a>
-                    </li>
-                    <li>
-                        <a href="#">Soumettre votre hotel</a>
-                    </li>
-                </ul>
+        </div>
+        <div class="footer-item">
+            <ul>
+                <li><strong>Nos hébérgements</strong></li>
+                <li>
+                    <a href="#">Charte qualité</a>
+                </li>
+                <li>
+                    <a href="#">Soumettre votre hotel</a>
+                </li>
+            </ul>
 
 
-            </div>
-            <div class="footer-item">
+        </div>
+        <div class="footer-item">
 
-                <ul>
-                    <li><strong>Assistance</strong></li>
-                    <li>
-                        <a href="#">Centre d'aide</a>
-                    </li>
-                    <li>
-                        <a href="#">Nous contacter</a>
-                    </li>
-                </ul>
+            <ul>
+                <li><strong>Assistance</strong></li>
+                <li>
+                    <a href="#">Centre d'aide</a>
+                </li>
+                <li>
+                    <a href="#">Nous contacter</a>
+                </li>
+            </ul>
 
-            </div>
-        </footer>
-    </div>
+        </div>
+    </footer>
 
 </body>
