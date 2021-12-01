@@ -204,7 +204,8 @@ nav ul li a:hover {
     transition: 0.3s;
 }
 
-.hebergement-list-card:hover {
+.hebergement-list-card:hover,
+.card:hover {
     transform: scale(1.05);
     transition-duration: 0.3s;
     transition-timing-function: ease;
@@ -318,17 +319,52 @@ nav ul li a:hover {
 }
 
 
-/* 
+/*Activites*/
 
-
-.hebergement-list {
-    display: flex;
+.hebergement-activites {
+    margin-top: 50px;
+    width: 100%;
 }
 
-.hebergement-list-title {
-    font-size: 18px;
-    font-weight: bold;
-} */
+.activites-list {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    height: 400px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.activites-1,
+.activites-2,
+.activites-3,
+.activites-4 {
+    width: 23%;
+}
+
+.activites-2 .size-1,
+.activites-4 .size-1 {
+    height: 225px;
+}
+
+.activites-2 .size-2,
+.activites-4 .size-2 {
+    height: 150px;
+}
+
+.activites-2,
+.activites-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.hebergement-activites .card {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+}
 
 
 /*footer*/
