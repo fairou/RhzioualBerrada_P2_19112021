@@ -1,0 +1,23 @@
+@media (max-width: 640px) {
+    /* Le code pour les mobiles ici */
+    header {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+    }
+    .logo img {
+        content: url("images/logo/Booki.png")
+    }
+    nav ul li a:hover {
+        border-bottom: 1px solid #0065FC;
+        border-top: none;
+        color: #0065FC;
+    }
+    .search-zone {
+        height: 100vh;
+        display: grid;
+        grid-template-columns: 2fr;
+        grid-template-rows: 4fr;
+        grid-template-areas: "search-filters-title" ""
+    }
+}
