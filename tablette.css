@@ -1,3 +1,68 @@
-@media (min-width: 600px) {
+@media (min-width: 768px) {
     /* Le code pour les tablettes ici */
+    body {
+        margin: 0 25px;
+    }
+    nav ul li a:hover {
+        border-top: none;
+        color: #0065FC;
+    }
+    .search-filters {
+        width: 100%;
+    }
+    .hebergement-list-card {
+        width: 45%;
+        height: 160px;
+        margin-bottom: 16px;
+    }
+    .hebergement-list-cards {
+        margin-top: -118px;
+    }
+    .hebergement-list {
+        height: 700px;
+    }
+    .card-img {
+        height: 75px;
+    }
+    .hebergement-popular {
+        height: 560px;
+    }
+    .hebergement-popular .card-img img {
+        height: 95%;
+        object-fit: cover;
+    }
+    .hebergement-popular-list {
+        margin-right: 40px;
+    }
+    .hebergement-popular .card {
+        height: 170px;
+        margin-bottom: 16px;
+    }
+    .hebergement-activites {
+        width: 96%;
+    }
+    .hebergement-activites h2 {
+        width: 250px;
+    }
+    .hebergement-activites img {
+        min-width: auto;
+    }
+    .activites-1 {
+        height: 440px;
+    }
+    .activites-2 {
+        height: 230px;
+    }
+    .activites-3 {
+        height: 170px;
+    }
+    .activites-4 {
+        height: 440px;
+    }
+    .activites-5 {
+        height: 170px;
+    }
+    .activites-6 {
+        height: 230px;
+    }
 }
