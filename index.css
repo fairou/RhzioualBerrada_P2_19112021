@@ -48,7 +48,7 @@ header nav li a {
     color: #000;
 }
 
-nav ul li a:hover {
+nav ul li:hover {
     border-top: 1px solid #0065FC;
     color: #0065FC;
 }
@@ -84,6 +84,14 @@ nav ul li a:hover {
     padding: 10px;
     border: #ffffff;
     border-radius: 0 10px 10px 0;
+}
+
+.search em {
+    display: none;
+}
+
+.search span {
+    display: block;
 }
 
 
@@ -258,7 +266,7 @@ nav ul li a:hover {
 }
 
 .show-more {
-    color: var(--main-black);
+    color: #000;
     font-weight: bold;
 }
 
