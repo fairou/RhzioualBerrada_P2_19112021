@@ -1,4 +1,4 @@
-@media (min-width: 768px) {
+@media (max-width: 768px) {
     /* Le code pour les tablettes ici */
     body {
         margin: 0 25px;
