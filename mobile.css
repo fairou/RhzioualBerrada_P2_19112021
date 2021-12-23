@@ -1,4 +1,4 @@
-@media (max-width: 767px) {
+@media all and (max-device-width: 600px) {
     /* Le code pour les mobiles ici */
     body {
         margin: 0;
@@ -15,7 +15,7 @@
         text-align: center;
     }
     .logo img {
-        content: url("images/logo/Booki.png")
+        content: url("images/logo/Booki.png");
     }
     nav ul li {
         width: 100%;
@@ -31,9 +31,6 @@
         color: #0065FC;
     }
     /* Main*/
-    main {
-        margin-left: 40px;
-    }
     .search-zone h3 {
         font-size: 22px;
     }
@@ -110,9 +107,6 @@
     .hebergement-list-card .card-body div {
         margin: 5px 0;
     }
-    .hebergement-popular-list {
-        margin-left: -20px;
-    }
     .trending {
         font-size: 23px;
     }
@@ -124,9 +118,6 @@
     .hebergement-popular .card-img img {
         border-radius: 10px 0 0 10px;
         height: 110px;
-        /* width: 100%;
-        height: 100%;
-        margin: -35px 0 0 -35px; */
     }
     .hebergement-list {
         padding: 20px;

@@ -1,0 +1,114 @@
+@media (max-width: 767px) {
+    /* CSS */
+    /* Le code pour les mobiles ici */
+    body {
+        margin: 0;
+    }
+    section {
+        margin: 20px;
+    }
+    /* Header */
+    header {
+        flex-direction: column;
+    }
+    .logo {
+        text-align: center;
+        margin: 20px 0;
+    }
+    .logo img {
+        content: url("images/logo/Booki.png");
+        width: 80px;
+    }
+    nav ul li {
+        width: 100%;
+        text-align: center;
+        border-bottom: 3px solid #F2F2F2;
+        padding-bottom: 10px;
+    }
+    nav ul li:hover {
+        border-top: none;
+        border-bottom-color: #0065FC;
+    }
+    nav ul li a {
+        font-weight: 600;
+    }
+    nav ul li a:hover {
+        border-top: none;
+        color: #0065FC;
+    }
+    /* Main*/
+    .search-zone h3 {
+        font-size: 22px;
+        margin-bottom: 0;
+    }
+    .search em {
+        display: block;
+    }
+    .search span {
+        display: none;
+    }
+     ::-webkit-input-placeholder {
+        /* Chrome/Opera/Safari */
+        color: #000;
+        font-size: 18px;
+        font-weight: bold;
+    }
+     ::-moz-placeholder {
+        /* Firefox 19+ */
+        color: #000;
+        font-size: 36px;
+        font-weight: bold;
+    }
+     :-ms-input-placeholder {
+        /* IE 10+ */
+        color: #000;
+        font-size: 36px;
+        font-weight: bold;
+    }
+    .search input[type=text] {
+        width: 100%;
+    }
+    .search button {
+        border-radius: 10px;
+        position: relative;
+        left: -5px;
+    }
+    .search-filters {
+        width: 94%;
+    }
+    .search-filters-title {
+        margin-bottom: 10px;
+        width: 100%;
+    }
+    .search-filters-button {
+        margin: 5px 0;
+    }
+    .search-infos-text {
+        font-size: 15px;
+    }
+    /* Hebergement*/
+    .hebergement {
+        flex-direction: column-reverse;
+    }
+    #Block-hebergement {
+        background-color: #F2F2F2;
+        margin: 0;
+    }
+    #Block-hebergement .hebergement-popular-list,
+    #Block-hebergement .hebergement-list {
+        padding: 20px;
+    }
+    .hebergement-popular-title-trending {
+        display: flex;
+    }
+    .hebergement-popular-title-trending h2 {
+        margin: 0;
+        width: 100%;
+    }
+    .hebergement-popular-title-trending span {
+        align-self: flex-end;
+    }
+    .hebergement-popular-title-trending span i {
+        font-size: 20px;
+    }
+}

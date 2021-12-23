@@ -1,4 +1,4 @@
-@media (max-width: 768px) {
+@media all and (min-device-width: 600px) {
     /* Le code pour les tablettes ici */
     body {
         margin: 0 25px;
@@ -11,18 +11,10 @@
         width: 100%;
     }
     .hebergement-list-card {
-        width: 45%;
-        height: 160px;
         margin-bottom: 16px;
     }
     .hebergement-list-cards {
         margin-top: -118px;
-    }
-    .hebergement-list {
-        height: 700px;
-    }
-    .card-img {
-        height: 75px;
     }
     .hebergement-popular {
         height: 560px;
