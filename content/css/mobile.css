@@ -1,0 +1,195 @@
+@media (max-width: 767px) {
+    /*#region body*/
+    body {
+        margin: 0;
+    }
+    main {
+        margin: 0;
+    }
+    /*#endregion body*/
+    /*#region Header*/
+    header {
+        flex-direction: column;
+        display: flex;
+    }
+    .logo {
+        width: inherit;
+        padding-left: inherit;
+        text-align: center;
+        margin: 20px 0;
+        /* width: 90%; */
+    }
+    nav ul li {
+        width: 100%;
+        text-align: center;
+        border-bottom: 3px solid #F2F2F2;
+        padding-bottom: 10px;
+    }
+    nav ul li:hover {
+        border-top: none;
+        border-bottom-color: #0065FC;
+    }
+    nav ul li a:hover {
+        border-top: none;
+        color: #0065FC;
+    }
+    nav ul {
+        display: flex;
+        list-style-type: none;
+        margin-top: 0;
+        padding: 0;
+    }
+    nav ul li {
+        padding: 10px;
+    }
+    header a {
+        text-decoration: none;
+    }
+    header nav li a {
+        display: inline;
+        padding: 35px;
+        color: #000;
+        font-weight: bold;
+    }
+    nav ul li:hover {
+        border-top: none;
+        color: #0065FC;
+    }
+    /*#endregion Header*/
+    /*#region main*/
+    /*#region Search*/
+    /*#region Search location*/
+    .searchs {
+        /* width: 85%; */
+        padding: 10px;
+    }
+    .search-zone h1 {
+        font-size: 25px;
+        margin-bottom: 0;
+    }
+    .search em {
+        display: block;
+    }
+    .search span {
+        display: none;
+    }
+     ::-webkit-input-placeholder {
+        /* Chrome/Opera/Safari */
+        color: #000;
+        font-size: 18px;
+        font-weight: bold;
+    }
+     ::-moz-placeholder {
+        /* Firefox 19+ */
+        color: #000;
+        font-size: 36px;
+        font-weight: bold;
+    }
+     :-ms-input-placeholder {
+        /* IE 10+ */
+        color: #000;
+        font-size: 36px;
+        font-weight: bold;
+    }
+    .search input[type=text] {
+        width: 100%;
+    }
+    .search button {
+        border-radius: 10px;
+        position: relative;
+        /* left: -5px; */
+    }
+    .search-filters {
+        /* width: 90%; */
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .search-filters-title {
+        width: 100%;
+    }
+    .search-filters-button {
+        margin: 5px 0;
+    }
+    .search-infos-text {
+        font-size: 15px;
+    }
+    /*#endregion Search location*/
+    /*#endregion Search*/
+    /*#region Hebergement*/
+    .hebergement {
+        flex-direction: column-reverse;
+    }
+    .hebergement h2 {
+        margin-left: 10px;
+    }
+    .hebergement-popular-list {
+        width: 100%;
+        border-radius: 0px !important;
+        padding: 10px;
+        width: 95%;
+    }
+    .card-body-bottom .card-rating {
+        bottom: -60px;
+    }
+    .card-title>h3 {
+        font-size: 19px;
+    }
+    .hebergement-popular {
+        padding: 30px 0;
+    }
+    .hebergement-list {
+        padding: 0;
+        width: 100%;
+        border-radius: 0px !important;
+        background-color: #fff !important;
+    }
+    .hebergement-list div {
+        background-color: #fff !important;
+    }
+    .hebergement-list-cards {
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+    .hebergement-list-card {
+        width: 90%;
+        margin: 10px;
+        box-shadow: 0px 5px 10px #999;
+    }
+    .show-more {
+        margin-left: 10px;
+    }
+    /*#endregion Hebergement*/
+    /*#region Activite*/
+    .hebergement-activites {
+        margin: 30px 10px !important;
+    }
+    .activites {
+        flex-direction: column;
+        padding: 10px;
+    }
+    .activites-1,
+    .activites-4,
+    .activites-2,
+    .activites-3,
+    .activites-5,
+    .activites-6 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .activites-1 img,
+    .activites-4 img,
+    .activites-2 img,
+    .activites-3 img,
+    .activites-5 img,
+    .activites-6 img {
+        height: 170px;
+    }
+    /*#endregion Activite*/
+    /*#endregion main*/
+    /*#region Footer*/
+    footer {
+        flex-direction: column;
+        /* width: 90%; */
+    }
+    /*#endregion Footer*/
+}
