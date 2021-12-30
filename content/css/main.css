@@ -4,8 +4,6 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* max-width: 992px;
-    margin: auto; */
     font-family: "Raleway", sans-serif;
 }
 
@@ -133,7 +131,7 @@ nav ul li:hover {
 /*#endregion Search location*/
 
 
-/*#region Filtres search*/
+/*#region search filtres*/
 
 .search-filters {
     display: flex;
@@ -275,7 +273,7 @@ nav ul li:hover {
     object-fit: cover;
 }
 
-.card-title>h3 {
+.card-title h3 {
     margin: 5px 0 0 0;
     font-size: 20px;
 }

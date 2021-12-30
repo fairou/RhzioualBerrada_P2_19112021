@@ -1,99 +1,117 @@
-        @media (min-width: 768px) and (max-width: 991px) {
-            /*#region Header*/
-            header h1 {
-                font-size: 20px;
+            @media (min-width: 768px) and (max-width: 991px) {
+                /*#region Header*/
+                header h1 {
+                    font-size: 20px;
+                }
+                /*#endregion Header*/
+                /*#region main*/
+                /*#region Search*/
+                /*#region Filtres search*/
+                .search-filters {
+                    font-size: 12px;
+                }
+                /*#endregion Filtres search*/
+                /*#endregion Search*/
+                /*#region Hebergement*/
+                .hebergement {
+                    gap: 10px;
+                }
+                .hebergement h2 {
+                    font-size: initial;
+                }
+                .hebergement-list,
+                .hebergement-popular-list {
+                    padding: 15px;
+                }
+                .hebergement-list {
+                    width: 70%;
+                }
+                .hebergement-popular-list {
+                    width: 30%;
+                }
+                .card-body {
+                    padding: 0;
+                }
+                .hebergement-list-card {
+                    height: 200px;
+                }
+                .card-img {
+                    height: 120px;
+                }
+                .card-title>h3 {
+                    font-size: 10px;
+                }
+                .trending i {
+                    font-size: 20px;
+                }
+                .hebergement-popular {
+                    height: 400px;
+                    padding-top: 15px;
+                }
+                .hebergement-popular .card-body {
+                    width: 50%;
+                    padding: 5px;
+                }
+                .hebergement-popular .card {
+                    height: 40%;
+                    margin-bottom: 15px;
+                }
+                .card-body-bottom .card-rating {
+                    bottom: -80px;
+                }
+                /*#endregion Hebergement*/
+                /*#region Activite*/
+                .activites {
+                    height: 340px;
+                    gap: 10px;
+                }
+                .activites h3 {
+                    font-size: 10px;
+                }
+                .activites-1,
+                .activites-4,
+                .activites-2,
+                .activites-3,
+                .activites-5,
+                .activites-6 {
+                    width: 170px;
+                }
+                .activites-1 img,
+                .activites-4 img {
+                    margin-left: 0px;
+                    height: 300px;
+                }
+                .activites-2 img,
+                .activites-6 img {
+                    height: 130px;
+                }
+                .activites-3 img,
+                .activites-5 img {
+                    height: 100px;
+                }
+                .activites-1 img {
+                    content: url('../images//activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg');
+                }
+                .activites-2 img {
+                    content: url('../images//activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg');
+                }
+                .activites-3 img {
+                    content: url('../images//activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg');
+                }
+                .activites-4 img {
+                    content: url('../images//activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg');
+                }
+                .activites-5 img {
+                    content: url('../images//activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg');
+                }
+                .activites-6 img {
+                    content: url('../images//activites/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg');
+                }
+                /*#endregion Activite*/
+                /*#endregion main*/
+                /*#region Footer*/
+                .footer-item a {
+                    font-size: 15px;
+                }
+                /*#endregion Footer*/
             }
-            /*#endregion Header*/
-            /*#region main*/
-            /*#region Search*/
-            /*#region Filtres search*/
-            .search-filters {
-                font-size: 12px;
-            }
-            /*#endregion Filtres search*/
-            /*#endregion Search*/
-            /*#region Hebergement*/
-            .hebergement {
-                gap: 10px;
-            }
-            .hebergement h2 {
-                font-size: initial;
-            }
-            .hebergement-list,
-            .hebergement-popular-list {
-                padding: 15px;
-            }
-            .hebergement-list {
-                width: 70%;
-            }
-            .hebergement-popular-list {
-                width: 30%;
-            }
-            .card-body {
-                padding: 0;
-            }
-            .hebergement-list-card {
-                height: 200px;
-            }
-            .card-img {
-                height: 120px;
-            }
-            .card-title>h3 {
-                font-size: 10px;
-            }
-            .trending i {
-                font-size: 20px;
-            }
-            .hebergement-popular {
-                height: 400px;
-                padding-top: 15px;
-            }
-            .hebergement-popular .card-body {
-                width: 50%;
-                padding: 5px;
-            }
-            .hebergement-popular .card {
-                height: 40%;
-                margin-bottom: 15px;
-            }
-            .card-body-bottom .card-rating {
-                bottom: -80px;
-            }
-            /*#endregion Hebergement*/
-            /*#region Activite*/
-            .activites {
-                height: 340px;
-                gap: 10px;
-            }
-            .activites h3 {
-                font-size: 10px;
-            }
-            .activites-1,
-            .activites-4,
-            .activites-2,
-            .activites-3,
-            .activites-5,
-            .activites-6 {
-                width: 170px;
-            }
-            .activites-1 img,
-            .activites-4 img {
-                margin-left: 0px;
-                height: 300px;
-            }
-            .activites-2 img,
-            .activites-6 img {
-                height: 130px;
-            }
-            .activites-3 img,
-            .activites-5 img {
-                height: 100px;
-            }
-            /*#endregion Activite*/
-            /*#endregion main*/
-            /*#region Footer*/
-            .footer-item a {
-                font-size: 15px;
-            }
-            /*#endregion Footer*/
-        }
