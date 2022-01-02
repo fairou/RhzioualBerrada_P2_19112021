@@ -286,7 +286,7 @@ nav ul li:hover {
     justify-content: space-around;
 }
 
-.card-price>p {
+.card-price p {
     margin: 0;
     font-size: 12px;
 }
@@ -302,7 +302,7 @@ nav ul li:hover {
 }
 
 .empty-star {
-    color: #D9D9D9;
+    color: #D9D9D9!important;
 }
 
 .show-more {
